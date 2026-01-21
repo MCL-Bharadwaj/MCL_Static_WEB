@@ -1,0 +1,57 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Backend sensitive files
+backend/EnquiryAPI/appsettings.json
+backend/EnquiryAPI/appsettings.Email.json
+backend/EnquiryAPI/appsettings.Development.json
+backend/EnquiryAPI/appsettings.Production.json
+backend/EnquiryAPI/publish/
+backend/EnquiryAPI/deploy.zip
+
+# .NET build artifacts
+**/bin/
+**/obj/
+**/*.cache
+**/*.dll
+**/*.exe
+**/*.pdb
+**/*.user
+**/*.userosscache
+**/*.sln.docstates
+
+
+# Frontend environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.production.local
+frontend/dist/
+
+# Azure deployment
+*.deployment
+.azure/
+
+# Deployment tokens (never commit these!)
+deployment-token.txt

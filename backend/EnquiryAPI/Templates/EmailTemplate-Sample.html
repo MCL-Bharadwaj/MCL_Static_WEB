@@ -1,0 +1,93 @@
+<!-- 
+  This is a reference template showing what the email notification will look like
+  The actual email is built dynamically in EmailService.cs
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Enquiry Notification - MathCodeLab</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f4f4f4; margin: 0; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        
+        <!-- Header -->
+        <div style="background: linear-gradient(135deg, #22c55e 0%, #a855f7 100%); color: white; padding: 20px; border-radius: 8px 8px 0 0; text-align: center; margin: -30px -30px 20px -30px;">
+            <h1 style="margin: 0; font-size: 24px;">🎓 New Enquiry Received - MathCodeLab</h1>
+        </div>
+        
+        <!-- Student Information -->
+        <div style="background-color: #f8f9fa; padding: 15px; border-radius: 6px; margin-bottom: 20px;">
+            <h3 style="margin-top: 0; color: #22c55e;">📋 Student Information</h3>
+            <div style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #e9ecef;">
+                <span style="font-weight: bold; color: #6c757d; min-width: 180px; display: inline-block;">First Name:</span>
+                <span style="color: #212529;">John</span>
+            </div>
+            <div style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #e9ecef;">
+                <span style="font-weight: bold; color: #6c757d; min-width: 180px; display: inline-block;">Last Name:</span>
+                <span style="color: #212529;">Doe</span>
+            </div>
+            <div style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #e9ecef;">
+                <span style="font-weight: bold; color: #6c757d; min-width: 180px; display: inline-block;">Parent Name:</span>
+                <span style="color: #212529;">Jane Doe</span>
+            </div>
+            <div style="margin-bottom: 0;">
+                <span style="font-weight: bold; color: #6c757d; min-width: 180px; display: inline-block;">Age:</span>
+                <span style="color: #212529;">12 years</span>
+            </div>
+        </div>
+        
+        <!-- Contact Details -->
+        <div style="background-color: #f8f9fa; padding: 15px; border-radius: 6px; margin-bottom: 20px;">
+            <h3 style="margin-top: 0; color: #a855f7;">📞 Contact Details</h3>
+            <div style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #e9ecef;">
+                <span style="font-weight: bold; color: #6c757d; min-width: 180px; display: inline-block;">Email:</span>
+                <span style="color: #212529;"><a href="mailto:parent@example.com" style="color: #0066cc; text-decoration: none;">parent@example.com</a></span>
+            </div>
+            <div style="margin-bottom: 0;">
+                <span style="font-weight: bold; color: #6c757d; min-width: 180px; display: inline-block;">Phone:</span>
+                <span style="color: #212529;"><a href="tel:5551234567" style="color: #0066cc; text-decoration: none;">5551234567</a></span>
+            </div>
+        </div>
+        
+        <!-- Program Details -->
+        <div style="background-color: #f8f9fa; padding: 15px; border-radius: 6px; margin-bottom: 20px;">
+            <h3 style="margin-top: 0; color: #3b82f6;">🎯 Program Details</h3>
+            <div style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #e9ecef;">
+                <span style="font-weight: bold; color: #6c757d; min-width: 180px; display: inline-block;">Interested Level:</span>
+                <span style="color: #212529;"><strong>Level 1</strong></span>
+            </div>
+            <div style="margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #e9ecef;">
+                <span style="font-weight: bold; color: #6c757d; min-width: 180px; display: inline-block;">Learning Experience:</span>
+                <span style="color: #212529;">Scratch</span>
+            </div>
+            <div style="margin-bottom: 0;">
+                <span style="font-weight: bold; color: #6c757d; min-width: 180px; display: inline-block; vertical-align: top;">Interested Days:</span>
+                <div style="display: inline-block;">
+                    <span style="background-color: #e7f3ff; color: #0066cc; padding: 4px 12px; border-radius: 12px; font-size: 13px; margin-right: 5px; display: inline-block;">Monday</span>
+                    <span style="background-color: #e7f3ff; color: #0066cc; padding: 4px 12px; border-radius: 12px; font-size: 13px; margin-right: 5px; display: inline-block;">Wednesday</span>
+                    <span style="background-color: #e7f3ff; color: #0066cc; padding: 4px 12px; border-radius: 12px; font-size: 13px; display: inline-block;">Friday</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Message -->
+        <div style="background-color: #f8f9fa; padding: 15px; border-radius: 6px; margin-bottom: 20px;">
+            <h3 style="margin-top: 0; color: #ec4899;">💬 Message</h3>
+            <p style="margin: 0; white-space: pre-wrap;">Looking forward to enrolling my child in your program. Please contact me for more details.</p>
+        </div>
+        
+        <!-- Footer -->
+        <div style="margin-top: 30px; text-align: center; color: #6c757d; font-size: 12px; padding-top: 20px; border-top: 1px solid #e9ecef;">
+            <p>Received on: <span style="color: #a855f7; font-weight: bold;">January 15, 2025 at 02:30 PM UTC</span></p>
+            <p>This is an automated notification from MathCodeLab Enquiry System.</p>
+            <p style="margin-top: 15px;">
+                <strong>MathCodeLab</strong><br>
+                Building Future Innovators Through Math & Code
+            </p>
+        </div>
+    </div>
+</body>
+</html>
